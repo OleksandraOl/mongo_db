@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 
+
 class AtlasClient:
     # can be changed later to accept username and password
     def __init__(self):
